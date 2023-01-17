@@ -108,7 +108,7 @@
 
 /*************************************************************************/
 
-@import url(http://fonts.googleapis.com/css?family=Saira:300,400,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Saira:300,400,700,800,900);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600,700);
 
 /**/
@@ -661,6 +661,7 @@ html.t-pattern-8 {
 	width: 370px;
 }
 .grid-col-6 {
+	margin-top: 20px;
 	width: 570px;
 }
 .grid-col-8 {
@@ -2740,7 +2741,7 @@ input[type="text"][disabled] {
 	border-left: 9px solid transparent;
 	border-right: 9px solid transparent;
 	position: absolute;
-	top: -9px;\
+	top: -9px;
 	left: -webkit-calc(50% - 9px);
 	left: -moz-calc(50% - 9px);
 	left: calc(50% - 9px);
@@ -6658,7 +6659,6 @@ p.form-row.form-row-wide.select-arrow:before {
 	display: table;
 }
 .item-instructor .instructor-avatar {
-	float: left;
 	max-width: 100%;
 	overflow: hidden;
 	border-top-left-radius: 4px;
@@ -6670,8 +6670,14 @@ p.form-row.form-row-wide.select-arrow:before {
 	-moz-border-bottom-left-radius: 4px;
 	-webkit-border-bottom-left-radius: 4px;
 }
+.item-instructor img {
+	margin: 0 auto;
+	width: 220px;
+	height: 280px;	  
+	object-fit: cover;
+}
 .item-instructor .info-box {
-	overflow: hidden;
+	
 	padding: 20px 30px 5px 30px;
 	color: #ffffff;
 	text-align: center;
